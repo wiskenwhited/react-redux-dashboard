@@ -1,0 +1,21 @@
+.accordion .accordion__item .text-mid-paragraph1, .text-paragraph1 {
+    margin: 2% 3%;
+}
+.accordion .accordion__item .accordion__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171717;
+}
+
+.accordion .accordion__item .accordion__title:focus {
+    outline: none; 
+}
+.accordion .accordion__item .accordion__title img {
+    height: 30px;
+    margin-right: 2%;
+   
+}
+.accordion .accordion__item .accordion__body {
+    background-color: #0E0E0E;
+}

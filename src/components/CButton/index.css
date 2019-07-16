@@ -1,0 +1,35 @@
+.cbutton-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.cbutton-container a {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.cbutton-container:hover {
+    border-color: #FFC400;
+    cursor: pointer;
+}
+
+.cbutton-container label {
+    margin: 0;
+    color: white
+}
+
+@media screen and (max-width: 414px) {
+    .cbutton-container {
+        width: 160px;
+        height: 40px;
+    }
+    .cbutton-container a {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,46 @@
+.team-card-container {
+    display: flex;
+}
+
+.team-card-container .image-content {
+    width: 50%;
+}
+.team-card-container .image-content img {
+    width: 100%;
+}
+.team-card-container .resume-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 0 7%;
+    background-color: #0E0E0E;
+}
+
+@media screen and (max-width: 1024px) {
+    .team-card-container .image-content {
+        width: 35%;
+    }
+    .team-card-container .image-content img {
+        width: 100% !important;
+        height: 120% !important;
+    }
+    .team-card-container .resume-content {
+        width: 65%;
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .team-card-container {
+        flex-direction: column;
+        margin: 0 5%;
+    }
+    .team-card-container .image-content {
+        width: 45%;
+    }
+    .team-card-container .resume-content {
+        width: 100%;
+        padding: 15% 7%;
+    }
+}

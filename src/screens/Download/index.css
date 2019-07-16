@@ -1,0 +1,94 @@
+.download-container {
+    padding: 9%;
+    background-color: #1D1D1D;
+    background-image: url('../../assets/images/download/background.png');
+    background-repeat: no-repeat;
+    background-position: right 100px top 20px;;
+    
+}
+.download-container .download-conent-h {
+    width: 40%;
+}
+.download-container .download-conent-h .dbutton-container {
+    margin-top: 10%; 
+}
+.download-container .machine-version {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 16%;
+}
+
+.download-container .feature-help {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.download-container .feature-help .feature-content {
+    display: flex;
+    position: relative;
+    width: 48%;
+    padding: 5% 3%;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717;
+}
+
+.download-container .feature-help .feature-content .text-content-f {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+@media screen and (max-width: 1024px) {
+    .download-container {
+        padding: 5%;
+        background-size: contain;
+    }
+    .download-container .download-conent-h {
+        width: 100%;
+    }
+    .download-container .feature-help .feature-content {
+        width: 100%;
+        padding: 15% 3%;
+        margin-bottom: 10vh;
+    }
+    .download-container .download-conent-h .title-container {
+        margin-bottom: 50%;
+    }
+    .download-container .download-conent-h .dbutton-container {
+        margin: 0 auto;
+    }
+    .download-container .feature-help .feature-content .bottom-card-container {
+        bottom: -11vh;
+        right: 0;
+        width: 60%;
+    }
+    .download-container .machine-version .download-version-container .dbutton-container {
+        width: 80%;
+    } 
+}
+
+@media screen and (max-width: 414px) {
+    .download-container .download-conent-h .dbutton-container {
+        width: 80%;
+        height: 60px;
+        margin: 0 auto;
+    }
+    .download-container .feature-help .feature-content {
+        margin-bottom: 30vh;
+    }
+    .download-container .feature-help .feature-content .bottom-card-container {
+        bottom: -20vh;
+        right: 0;
+        width: 100%;
+    }
+    .download-container .machine-version {
+        flex-direction: column;
+    }
+    .download-container .machine-version .download-version-container {
+        width: 100%;
+        margin-top: 5%;
+    }
+}

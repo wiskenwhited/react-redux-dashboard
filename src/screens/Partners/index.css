@@ -1,0 +1,103 @@
+.partners-container {
+    background-color: #1D1D1D;
+}
+.partners-container .meet-partners-container {
+    position: relative;
+    padding: 5% 0;
+    margin-bottom: 15%;
+    background-image: url('../../assets/images/partners/background.png');
+    background-size: 85% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.partners-container .meet-partners-container .partners-content {
+    width: 100%;
+}
+.partners-container .meet-partners-container .partners-content .partners-arrow {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2px;
+    width: 58%;
+}
+.partners-container .meet-partners-container .partners-content .partners-arrow img {
+    margin-left: 2px;
+}
+.partners-container .extend-family-container {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    margin: 0 9%;
+}
+.partners-container .extend-family-container .first-card-container {
+    padding-right: 20%;
+}
+.partners-container .faq-container {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 70%;
+    margin: 0 auto;
+}
+.partners-container .faq-container h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 5% 0;
+    color: #FFFFFF;
+}
+.partners-container .join-competition-container {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .partners-container .meet-partners-container {
+        padding: 5% 0 20% 0;
+    }
+    .partners-container .meet-partners-container .bottom-card-container {
+        right: 13%;
+        width: 50vw;
+    }
+    .partners-container .extend-family-container {
+        grid-template-columns: 50% 50%;
+
+    }
+    .partners-container .extend-family-container .first-card-container {
+        grid-column: 1 / span 2;
+    }
+    .partners-container .faq-container {
+        width: 90%;
+    }
+    .partners-container .meet-partners-container .partners-content .partners-arrow {
+        width: 100%;
+        padding-left: 36.05vw;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .partners-container .meet-partners-container .partners-content .partners-arrow {
+      
+        padding-left: 36.7vw;
+       
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .partners-container .meet-partners-container {
+        background-image: url('../../assets/images/partners/background.png');
+        background-size: 100% 85%;
+        background-position: bottom;
+        padding-bottom: 30%;
+        margin-bottom: 40%;
+    }
+    .partners-container .extend-family-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .partners-container .meet-partners-container .partners-content .partners-arrow { 
+        padding-left: 7%;
+        margin-top: 1px;
+    }
+    .partners-container .meet-partners-container .bottom-card-container {
+        left: 7%;
+        width: 93vw;
+    }
+}

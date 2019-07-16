@@ -1,0 +1,65 @@
+/* Support Container  */
+.support-3-container {
+    display: flex;
+    padding: 0 9%;
+    margin-bottom: 10%;
+}
+
+.support-3-container .support-textarea-s {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.support-3-container .support-2-textarea {
+    display: flex;
+    width: 60%;
+}
+.support-3-container .support-2-textarea .support-textarea-l {
+    display: flex;
+    margin-top: 4%;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 6%;
+}
+.support-3-container .support-2-textarea .support-textarea-l:nth-child(2) .cbutton-container {
+    display: none;
+}
+.support-3-container .support-2-textarea .support-textarea-l .text-mid-paragraph {
+    margin-bottom: 10%;
+}
+.support-3-container .support-2-textarea .support-textarea-l .text-paragraph {
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 1024px) {
+    .support-3-container {
+        flex-direction: column;
+    }
+    .support-3-container .support-2-textarea {
+        width: 100%;
+    }
+    .support-3-container .support-2-textarea .support-textarea-l {
+        padding: 0 3% 0 0;
+    }
+    .support-3-container .support-textarea-s {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    
+    .support-3-container .support-2-textarea {
+        flex-direction: column;
+    }
+    .support-3-container .support-2-textarea .support-textarea-l {
+        width: 100%;
+    }
+    .support-3-container .support-2-textarea .support-textarea-l:nth-child(2) .cbutton-container {
+        display: flex;
+    }
+    .support-3-container .support-2-textarea .support-textarea-l:nth-child(1) .cbutton-container {
+        display: none;
+    }
+    
+}

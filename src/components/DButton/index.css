@@ -1,0 +1,27 @@
+.dbutton-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 391px;
+    height: 80px;
+    border: 2px solid #FFC400;
+    border-radius: 40px;
+    background-color: transparent;
+}
+
+.dbutton-container:hover {
+    border-color: yellow;
+    cursor: pointer;
+}
+
+.dbutton-container label {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: white
+}
+.dbutton-container img {
+    height: 35%;
+    margin-left: 5px;
+}

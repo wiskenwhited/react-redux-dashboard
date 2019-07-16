@@ -1,0 +1,64 @@
+/* Join Compotition */
+.join-competition-container {
+    display: flex;
+    background-color: #0E0E0E;
+    padding: 0;
+    margin-top: 10%;
+    background-image: url('../../assets/images/competition-background-desktop.png');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 287px;
+}
+.join-competition-container .text-title {
+    font-size: 50px;
+}
+.join-competition-container .competition-textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 10%;
+}
+
+.join-competition-container .competition-buttonarea {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    padding-right: 267px;
+}
+
+@media screen and (max-width: 1024px) {
+    .join-competition-container {
+        flex-direction: column; 
+        justify-content: center;
+        background-image: url('../../assets/images/competition-background-pad.png');
+    }
+    .join-competition-container .competition-textarea {
+        align-items: center;
+        padding: 0 2%;
+        width: 100%;
+    }
+    .join-competition-container .competition-textarea .text-paragraph {
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+    .join-competition-container .competition-buttonarea {
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .join-competition-container {
+        background-image: url('../../assets/images/competition-background-phone.png');
+    }
+    .join-competition-container .competition-textarea .text-title {
+        font-size: 40px;
+    }
+    .join-competition-container .competition-textarea p {
+        margin: 0 10%;
+    }
+}

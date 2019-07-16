@@ -1,0 +1,29 @@
+.feature-component {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding-right: 3vw;
+}
+
+.feature-component .feature-imagearea {
+    height: 15vh;
+}
+.feature-component .feature-textarea {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 414px) {
+    .feature-component {
+        flex-direction: row;
+    }
+    .feature-component .feature-imagearea {
+        width: 30%;
+        padding: 0 6% 0 0;
+    }
+    .feature-component .feature-imagearea img {
+        width: 100%;
+    }
+    .feature-component .feature-textarea {
+        width: 70%;
+    }
+}

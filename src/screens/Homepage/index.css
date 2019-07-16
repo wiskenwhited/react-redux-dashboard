@@ -1,0 +1,215 @@
+.home-container {
+    background-color: #1D1D1D;
+    overflow-x: hidden;
+}
+.home-container.home {
+    margin-top: -138px;
+    background-image: url('../../assets/images/homepage/background.png');
+    background-repeat: no-repeat;
+    padding-top: 138px;
+}
+/* Join Challenge */
+.home-container .join-challenge-container {
+    display: flex;
+    height: 57vh;
+    padding: 0 3% 0 9%;
+}
+
+.home-container .join-challenge-container .join-challenge {
+    width: 100%;
+    align-self: flex-end;
+}
+.home-container .join-challenge-container .join-button-area {
+    display: flex;
+    margin-top: 2%;
+}
+.home-container .join-challenge-container .join-button-area .cbutton-container {
+    margin-right: 3%;
+}
+.home-container .join-challenge-container .join-social {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10% 0;
+}
+.home-container .join-challenge-container .join-social img {
+    height: 22px;
+}
+/* About Platform  */
+.home-container .about-platform-container {
+    display: flex;
+    margin: 78px 0;
+}
+
+.home-container .about-platform-container .about-platform {
+    display: flex;
+    width: 50%;
+    padding: 10% 0 0 16%;
+}
+.home-container .about-platform-container .about-platform img {
+    margin: 0 5%;
+    align-self: center;
+}
+.home-container .about-platform-container .about-platform .text-paragraph {
+    margin-top: 0%;
+}
+.home-container .about-platform-container .howitworks-video {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.home-container .about-platform-container .howitworks-video .video-container {
+    width: 640px;
+    height: 360px;
+    position: relative;
+}
+.home-container .about-platform-container .howitworks-video .video-container div:nth-child(1) {
+   
+}
+.home-container .about-platform-container .howitworks-video .video-container .video-textarea {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 6%;
+    bottom: 10%;
+    color: wheat;
+}
+.home-container .about-platform-container .howitworks-video .video-container .video-textarea .imagearea {
+    width: 15% ;
+    
+}
+.home-container .about-platform-container .howitworks-video .video-container .video-textarea .imagearea img {
+    width: 100%;
+}
+.home-container .about-platform-container .howitworks-video .video-container .video-textarea .textarea{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.home-container .about-platform-container .howitworks-video .video-container .video-textarea .text-paragraph {
+    margin-top: 0;
+}
+
+/* Working Us */
+.home-container .working-us-container {
+    display: flex;
+    height: 30vh;
+    padding-left: 9%;
+    
+}
+
+.home-container .working-us-container .support-textarea {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+.home-container .working-us-container .support-textarea .see-all-container {
+    padding: 1% 0 5% 0;
+}
+.home-container .working-us-container .support-textarea .see-all-container .line {
+    height: 5px;
+    width: 118px;
+    background-color: #FFC400;
+}
+.home-container .working-us-container .partners-image {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFC400;
+}
+/* Responsive  */
+@media screen and (max-width: 1600px) {
+    .home-container .about-platform-container .about-platform {
+        padding: 10% 3% 0 9%;
+    }
+    .home-container .working-us-container .partners-image {
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+}
+/* IPad Responsive */
+@media screen and (max-width: 1024px) {
+    .home-container .join-challenge-container {
+        flex-direction: column;
+        height: 30vh;
+        margin-top: 30%;
+    }
+    .home-container .join-challenge-container .join-challenge .title-container {
+        margin: 0 10%;
+    }
+    .home-container .join-challenge-container .join-challenge .join-button-area {
+        justify-content: space-around;
+        padding: 0 15%;
+    }
+    .home-container .join-challenge-container .join-social {
+        flex-direction: row;
+        width: 28%;
+        margin: 0 auto;
+        padding: 6% 0;
+    }
+    /* About  */
+    .home-container .about-platform-container  {
+        flex-direction: column;
+    }
+    .home-container .about-platform-container .about-platform {
+        width: 100%;
+        padding: 4% 3%;
+    }
+    .home-container .about-platform-container .howitworks-video {
+        width: 100%;
+    }
+    /* Working with us */
+    .home-container .working-us-container {
+        padding: 0; 
+        height: inherit;
+        background-image: none;
+        flex-direction: column;
+    }
+    .home-container .working-us-container .support-textarea {
+        width: 100%;
+        padding: 0 9%;
+    }
+    .home-container .working-us-container .support-textarea .see-all-container {
+        padding: 1% 0 5% 0;
+    }
+    .home-container .working-us-container .support-textarea .see-all-container .line {
+        height: 5px;
+        width: 118px;
+        background-color: #FFC400;
+    }
+    .home-container .working-us-container .partners-image {
+        width: 100%;
+        height: 30vh;
+        background-color: #FFC400;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .home-container .join-challenge-container .join-challenge .title-container {
+        margin: 0;
+    }
+    .home-container .join-challenge-container .join-social {
+        width: 40%;
+    }
+    .home-container .about-platform-container .about-platform {
+        padding: 0 7%;
+    }
+    .home-container .about-platform-container .about-platform img {
+        display: none;
+    }
+    .home-container .about-platform-container .howitworks-video .video-container {
+        width: 375px;
+        height: 211px;
+    }
+    .home-container .about-platform-container .howitworks-video .video-container > div:nth-child(1) {
+        width: 375px !important;
+        height: 211px !important;
+    }
+    .home-container .working-us-container .partners-image {
+        display: flex;
+        flex-direction: column;
+    }
+}

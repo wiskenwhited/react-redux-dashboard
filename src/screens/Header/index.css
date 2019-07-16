@@ -1,0 +1,207 @@
+.header-container {
+    padding-top: 30px;
+    height: 139px;
+    background-color: #1D1D1D;
+}
+
+.header-container a {
+    height: 30%;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.header-container a > img {
+    margin-left: 10%;
+    height: 100%;
+    width: auto;
+}
+.header-container .collapse-container {
+    display: flex;
+    align-items: center;
+    width: auto;
+    
+}
+.header-container .collapse-container .cbutton-container a {
+    height: 50%;
+}
+.header-container .collapse-container .nav-bar-link {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 15%;
+}
+.header-container .collapse-container .nav-bar-link a {
+    padding: 0;
+}
+.header-container .collapse-container .nav-bar-link a.active {
+    background-image: url('../../assets/images/partners/background.png');
+    background-size: 20% 5px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+/* Language Selector */
+.header-container .dropdown {
+    padding: 0 10px 0 35px;
+}
+
+.header-container .dropdown > a {
+    width: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.header-container .dropdown button {
+    display: flex;
+    justify-content: flex-start;
+}
+.header-container .dropdown button img {
+    height: 20px;
+    margin-right: 5px;
+}
+.header-container .dropdown button p {
+    width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+    .header-container .collapse-container .nav-bar-link {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .header-container .collapse-container .nav-bar-link {
+        padding: 0 0%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header-container .collapse-container {
+        display: none;
+    }
+    .bm-burger-button {
+        display: block !important;
+    }
+}
+@media screen and (max-width: 414px) {
+    .bm-cross-button {
+        height: 24px;
+        width: 24px;
+        top: -8px !important;
+    }
+    .bm-item-list .btm-footer-container {
+        
+    }
+    .bm-item-list .nav-bar-link a {
+        width: 40% !important;
+    }
+    .bm-item-list .nav-bar-link .cbutton-container a {
+        height: 24px !important;
+    }
+}
+
+
+
+/* HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH */
+/* Position and sizing of burger button */
+.bm-burger-button {
+    display: none;
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 36px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+    right: 30px !important;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    /* background: #bdc3c7; */
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    margin-top: -30px;
+    background: #171717;
+    padding: 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0;
+  }
+  .bm-item-list .nav-bar-link {
+    display: flex;
+    outline: none;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10% 0 10% 20%;
+  }
+  .bm-item-list .nav-bar-link a {
+      height: 10%;
+      width: 20%;
+  }
+  .bm-item-list .nav-bar-link .cbutton-container {
+      margin-top: 60px;
+  }
+  .bm-item-list .nav-bar-link .cbutton-container a {
+      height: 30px;
+      width: 100% !important;
+  }
+  .bm-item-list .btm-header-container {
+      height: 10vh;
+      display: flex !important;
+      outline: none;
+      justify-content: space-between;
+      padding: 6% 10% 0 5%;
+  }
+  .bm-item-list .btm-header-container a > img {
+      height: 20px;
+  }
+  .bm-item-list .btm-footer-container {
+       
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        height: 30vh;
+        padding-left: 20%;
+        background-color: #0E0E0E;
+  }
+  .bm-item-list .btm-footer-container .social-mark {
+        margin-bottom: 10px;
+  }
+  .bm-item-list .btm-footer-container .social-mark img {
+      height: 20px;
+      margin: 0;
+      margin-right: 20px;    
+  }
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+

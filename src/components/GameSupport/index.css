@@ -1,0 +1,49 @@
+/* Game Support */
+.game-support-container {
+    display: flex;
+    position: relative;
+    height: 25vw;
+    padding-left: 9%;
+}
+
+.game-support-container .support-textarea {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    padding-right: 20%;
+}
+
+.game-support-container .game-support-addgame {
+    width: 65%;
+    height: 100%;
+    background-color: #FFC400;
+}
+.game-support-container .game-panel {
+    position: absolute;
+    width: 80%;
+    height: 58%;
+    right: -10%;
+    margin: 3% 0 auto auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .game-support-container {
+        flex-direction: column;
+        height: inherit;
+        padding: 0;
+    }
+    .game-support-container .support-textarea {
+        width: 100%;
+        padding: 0 9%;
+    }
+    .game-support-container .game-panel {
+        position: inherit;
+        width: 100%;
+        padding: 5% 9% 5% 12%;
+        right: 0;
+        background-image: url('../../assets/images/partners/background.png');
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        background-position: bottom;
+    }
+}

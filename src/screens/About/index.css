@@ -1,0 +1,199 @@
+.about-container {
+    background-color: #1D1D1D;
+    overflow-x: hidden;
+}
+.about-container .support-3-container {
+    margin-bottom: 0;
+}
+.about-container .meet-team-container {
+    position: relative;
+    padding: 7% 0;
+    background-image: url('../../assets/images/about/background.png');
+    background-size: 85% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.about-container .meet-team-container .meet-team-content {
+    display: flex;
+
+}
+
+.about-container .meet-team-container .meet-team-content .left-team-content {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+.about-container .meet-team-container .meet-team-content .left-team-content .team-arrow {
+    display: flex;
+    justify-content: flex-end;
+}
+.about-container .meet-team-container .meet-team-content .left-team-content .team-arrow img {
+    margin-left: 1px;
+}
+.about-container .meet-team-container .meet-team-content .left-team-content .team-member-card {
+    margin-left: 10%;
+}
+
+.about-container .meet-team-container .meet-team-content .right-team-content {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    padding-left: 3%;
+    
+}
+.about-container .mission-container {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    margin-top: 10%;
+    background-image: url('../../assets/images/about/our-mission.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.about-container .mission-container img {
+    
+    visibility: hidden;
+}
+.about-container .mission-container .support-3-container {
+    margin-bottom: 0;
+}
+/* Help Company */
+.about-container .help-company-container {
+    position: relative;
+    margin-top: 30vh;
+    height: 60vh;
+    background-color: #272727;
+}
+.about-container .help-company-container .help-company-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    height: 75vh;
+    width: 60%;
+    left: 20%;
+    top: -35vh;
+}
+.about-container .help-company-container .help-company-content .image-card-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0e0e0e;
+    height: 50vh;
+}
+.about-container .help-company-container .help-company-content .image-card-container img {
+    
+    width: 25%;
+}
+.about-container .join-competition-container {
+    margin-top: 0;
+}
+@media screen and (max-width: 1500px) {
+    .about-container .mission-container .support-3-container .support-2-textarea .support-textarea-l:nth-child(1) {
+        width: 100%;
+    }
+ }
+@media screen and (max-width: 1024px) {
+    .about-container .support-3-container {
+        margin-bottom: 10%;
+    }
+    .about-container .image-title-container .image-content {
+        margin: -30% 0;
+    }
+    .about-container .meet-team-container {
+        padding: 7% 0 20% 0;
+        background-size: 85% 80%;
+        background-position: bottom right;
+    }
+    .about-container .meet-team-container .meet-team-content {
+        flex-direction: column-reverse;
+    }
+    .about-container .meet-team-container .meet-team-content .right-team-content {
+        width: 100%;
+    }
+    .about-container .meet-team-container .meet-team-content .right-team-content .bottom-card-container {
+        right: 8.5%;
+        width: 50vw;
+    }
+    .about-container .meet-team-container .meet-team-content .left-team-content {
+        width: 100%;
+    }
+    .about-container .meet-team-container .meet-team-content .right-team-content .title-container {
+        margin-bottom: 10%;
+    }
+    .about-container .meet-team-container .meet-team-content .left-team-content .team-arrow {
+        width: 100%;
+        padding-left: 41vw;
+        justify-content: flex-start;
+    }
+    .about-container .mission-container {
+        align-items: flex-start;
+        margin-top: 30%;
+        background-size: cover;
+    }
+    .about-container .mission-container .support-3-container .support-2-textarea .support-textarea-l:nth-child(1) {
+        width: 100%;
+    }
+    .about-container .help-company-container {
+        height: 35vh;
+    }
+    .about-container .help-company-container .help-company-content {
+        width: 82%;
+        left: 9%;
+        top: -53vh;
+    }
+    .about-container .help-company-container .help-company-content .image-card-container .bottom-card-container {
+        width: 50vw;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .about-container .meet-team-container .meet-team-content .left-team-content .team-arrow {
+        
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .about-container .meet-team-container {
+        
+        background-size: 100% 71%;
+        background-position: bottom;
+        padding-bottom: 30%;
+        margin-bottom: 40%;
+    }
+    .about-container .meet-team-container .meet-team-content .left-team-content .team-member-card {
+        margin-left: 0;
+    }
+    .about-container .meet-team-container .meet-team-content .right-team-content .bottom-card-container {
+        left: 5%;
+        width: 95vw;
+    }
+    .about-container .meet-team-container .meet-team-content .left-team-content .team-arrow {
+        justify-content: flex-start;
+        padding-left: 5%;
+        width: 95%;
+    }
+    .about-container .image-title-container .image-content {
+        margin: 0;
+        padding: 0;
+    }
+    .about-container .image-title-container .image-content img {
+        width: 100%; 
+    }
+    .about-container .help-company-container .help-company-content .image-card-container  {
+        flex-direction: column;
+        height: 30vh;
+    }
+    .about-container .help-company-container .help-company-content .image-card-container .bottom-card-container {
+        width: 90vw;
+        right: -10%;
+        bottom: -20vh;
+    }
+    
+}

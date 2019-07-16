@@ -1,0 +1,11 @@
+.app-container {
+    font-size: 16px;
+}
+.header {
+    position: 'fixed';
+    width: '100%';
+    z-index: '100';
+}
+.header.home {
+    position: inherit;
+}

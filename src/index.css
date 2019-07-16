@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, label {
+  font-family: 'Yantramanav';
+}
+p, span {
+  font-family: 'Lato';
+}

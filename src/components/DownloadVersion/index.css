@@ -1,0 +1,12 @@
+.download-version-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 48%;
+    padding: 3% 0;
+    background-color: #0E0E0E;
+}
+.download-version-container h1 {
+    margin-bottom: 5%;
+}

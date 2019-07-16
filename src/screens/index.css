@@ -1,0 +1,43 @@
+.text-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.text-mid-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.text-mid-paragraph {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.text-paragraph {
+    margin: 3% 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+}
+.text-content-t {
+    display: flex;
+    align-items: center;
+    height: 38vh;
+    width: 81.5%;
+    letter-spacing: 2px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 414px) {
+    .text-title {
+        font-size: 40px;
+    }
+    .text-mid-title {
+        font-size: 30px;
+    }
+    .text-paragraph {
+        font-size: 16px;
+    }
+}

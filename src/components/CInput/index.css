@@ -1,0 +1,32 @@
+.cinput-container {
+    position: relative;
+    height: 90px;
+    width: 100%;
+}
+
+.cinput-container label {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    color: #FFC400;
+    font-size: 18px;
+}
+.cinput-container input {
+    vertical-align: center;
+    height: 50px;
+    border: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 24px;
+    background: transparent;
+    border-bottom: 1px solid #FFFFFF;
+}
+.cinput-container input:focus {
+    color: #FFFFFF;
+    box-shadow: none;
+    border-color: #FFC400;
+    background-color: transparent;
+}
+.cinput-container input::placeholder {
+    color: #BEBEBE;
+}

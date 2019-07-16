@@ -1,0 +1,24 @@
+.bottom-card-container {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2vw;
+    width: 22vw;
+    height: 22vh;
+    /* Position  */
+    bottom: -11vh;
+    right: 10vw;
+}
+.bottom-card-container.explore {
+    bottom: 2vh;
+    right: -16vw;
+}
+.bottom-card-container .text-mid-title {
+    font-weight: 500;
+}
+.bottom-card-container .line {
+    width: 45%;
+    height: 7px;
+  
+}
